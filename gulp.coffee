@@ -53,6 +53,7 @@ gulpTestCoverage = () ->
 
     }
   }))
+  ###
   .pipe(gCoverageEnforcer({
     thresholds : {
       statements : 0,
@@ -63,6 +64,7 @@ gulpTestCoverage = () ->
     coverageDirectory : 'coverage',
     rootDirectory : ''
   }))
+  ###
 
 gulpTestExamples = () ->
   gulp
