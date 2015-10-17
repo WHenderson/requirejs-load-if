@@ -1,0 +1,34 @@
+{
+  "name": "requirejs-load-if",
+  "main": [
+    "lib/requirejs-load-if.coffee",
+    "lib/requirejs-load-if-node.js",
+    "lib/requirejs-load-if-umd.js",
+    "lib/requirejs-load-if-umd.min.js",
+    "lib/requirejs-load-if-web.js",
+    "lib/requirejs-load-if-web.min.js"
+  ],
+  "homepage": "https://github.com/WHenderson/requirejs-load-if",
+  "authors": [
+    "WHenderson <whenderson.github@gmail.com>"
+  ],
+  "description": "Optionally load AMD dependencies. Useful for plugin authors extending/joining 3rd party libraries.",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "json",
+    "mapping",
+    "convert",
+    "conversion"
+  ],
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "coverage",
+    "test",
+    "tests"
+  ]
+}
