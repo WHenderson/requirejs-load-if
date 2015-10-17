@@ -151,6 +151,7 @@ suite('coverage', () ->
     )
   )
 
+  ###
   suite('only specified', (cb) ->
     suiteSetup(() ->
       requirejs.s.contexts._.config.config = {
@@ -183,4 +184,5 @@ suite('coverage', () ->
       return
     )
   )
+  ###
 )
