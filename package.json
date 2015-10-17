@@ -1,7 +1,7 @@
 {
   "name": "requirejs-load-if",
   "author": "Will Henderson <whenderson.github@gmail.com> (https://github.com/WHenderson)",
-  "version": "0.7.0",
+  "version": "0.1.0",
   "description": "Optionally load AMD dependencies. Useful for plugin authors extending/joining 3rd party libraries.",
   "keywords": [
     "type",
